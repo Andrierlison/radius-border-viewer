@@ -1,27 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 	<head>
-		<title>Border Radius</title>
+		<title>VISUALIZADOR DE BORDER RADIUS</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<link rel="stylesheet" href="css/styles.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-				<script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-
+		<script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
 	</head>
 	<body>
 		<header>
-			<h1>Visualizador de Border Radius</h1>
+			<h1>VISUALIZADOR DE BORDER RADIUS</h1>
 		</header>
 		<main>
-			<div id="caixa">
-				<input value="" type="number" id="superiorEsquerdo" placeholder="Superior Esquerdo">
-				<input value="" type="number" id="superiorDireito" placeholder="Superior Direito">
-				<input value="" type="number" id="inferiorDireito" placeholder="Inferior Direito">
-				<input value="" type="number" id="inferiorEsquerdo" placeholder="Inferior Esquerdo">
-				<button onclick="visualizar()">Visualizar código CSS</button>
-			</div>
+			<input oninput="visualizar()" type="number" id="superiorEsquerdo" placeholder="Superior Esquerdo">
+			<input oninput="visualizar()" type="number" id="superiorDireito" placeholder="Superior Direito">
+			<input oninput="visualizar()" type="number" id="inferiorDireito" placeholder="Inferior Direito">
+			<input oninput="visualizar()" type="number" id="inferiorEsquerdo" placeholder="Inferior Esquerdo">
 			<p id="codigo"></p>
+			<div id="caixa">
+			</div>
 		</main>
 		</footer>
 		<footer>
@@ -33,8 +31,8 @@
 		      <li><a target="_blank" href="https://github.com/Andrierlison"><i class="fab fa-github-alt"></i>Github.com/Andrierlison</a></li>
 		      <li><a target="_blank" href="https://twitter.com/Andrierlison1?s=09"><i class="fab fa-twitter"></i>Twitter/Andrierlison1</a></li>
 		      <li><a href="mailto:andrierlisonsilva8@gmail.com"><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a></li> </ul>
-		  <p>Desenvolvido por Andrierlison</p>
+		  <p>DESENVOLVIDO POR ANDRIERLISON</p>
 		</footer>
-		<script src="./js/to_view.js"></script>
+		<script src="./js/visualizar_bordas.js"></script>
 	</body>
 </html>
