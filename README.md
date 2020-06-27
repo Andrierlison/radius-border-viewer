@@ -1,6 +1,6 @@
-# Visualizador Border Radius
+# Visualizador de Border Radius
 
-[Link da página](https://andrierlison.github.io/visualizador_border_radius/)
+[Link da página](https://andrierlison.github.io/visualizador_de_border_radius/)
 
 ## Inspirado no repositório do github [app-ideas](https://github.com/florinpop17/app-ideas) específicamente no projeto Border-Radius-Previewer.
 
