@@ -1,37 +1,77 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<title>VISUALIZADOR DE BORDER RADIUS</title>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/styles.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto&display=swap">
-		<script src="https://kit.fontawesome.com/57ded0e204.js" crossorigin="anonymous"></script>
-	</head>
-	<body>
-		<header>
-			<h1>VISUALIZADOR DE BORDER RADIUS</h1>
-		</header>
-		<main>
-			<input oninput="visualizar()" type="number" id="superiorEsquerdo" placeholder="Superior Esquerdo">
-			<input oninput="visualizar()" type="number" id="superiorDireito" placeholder="Superior Direito">
-			<input oninput="visualizar()" type="number" id="inferiorDireito" placeholder="Inferior Direito">
-			<input oninput="visualizar()" type="number" id="inferiorEsquerdo" placeholder="Inferior Esquerdo">
-			<p id="codigo"></p>
-			<div id="box">
-			</div>
-		</main>
-		</footer>
-		<footer>
-		  <ul>
-		    <li>
-		      <h4>CONTATO</h4>
-		    </li>
-		        <li><a target="_blank" href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/"><i class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a></li>
-		      <li><a target="_blank" href="https://github.com/Andrierlison"><i class="fab fa-github-alt"></i>Github.com/Andrierlison</a></li>
-		      <li><a href="mailto:andrierlisonsilva8@gmail.com"><i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a></li> </ul>
-		  <p>DESENVOLVIDO POR ANDRIERLISON</p>
-		</footer>
-		<script src="./js/visualizar_bordas.js"></script>
-	</body>
+<html lang="en">
+  <head>
+    <title>RADIUS BORDER VIEWER</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+    />
+    <script
+      src="https://kit.fontawesome.com/57ded0e204.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1>RADIUS BORDER VIEWER</h1>
+    </header>
+    <main>
+      <input
+        oninput="toView()"
+        type="number"
+        id="topLeft"
+        placeholder="Top Left"
+      />
+      <input
+        oninput="toView()"
+        type="number"
+        id="topRight"
+        placeholder="Top Right"
+      />
+      <input
+        oninput="toView()"
+        type="number"
+        id="bottomRight"
+        placeholder="Bottom Right"
+      />
+      <input
+        oninput="toView()"
+        type="number"
+        id="bottomLeft"
+        placeholder="Bottom Left"
+      />
+      <p id="code"></p>
+      <div id="box"></div>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <h4>CONTACT</h4>
+        </li>
+        <li>
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/andrierlison-da-silva-916775190/"
+          >
+            <i class="fab fa-linkedin-in"></i>Linkedin/andrierlison-da-silva</a
+          >
+        </li>
+        <li>
+          <a target="_blank" href="https://github.com/Andrierlison">
+            <i class="fab fa-github-alt"></i>Github.com/Andrierlison</a
+          >
+        </li>
+        <li>
+          <a href="mailto:andrierlisonsilva8@gmail.com">
+            <i class="fas fa-envelope"></i>andrierlisonsilva8@gmail.com</a
+          >
+        </li>
+      </ul>
+      <p>DEVELOPED BY ANDRIERLISON</p>
+    </footer>
+    <script src="./js/toView.js"></script>
+  </body>
 </html>
