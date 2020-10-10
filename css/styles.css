@@ -27,6 +27,8 @@ main {
 main div {
   background-color: var(--cor1);
   display: block;
+  max-width: 400px;
+  max-height: 400px;
   width: 40vh;
   height: 40vh;
   margin: 20px auto;
