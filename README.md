@@ -1,6 +1,6 @@
 <div align="center">
 <h1>
-    <a href="https://andrierlison.github.io/radius-border-viewer/">🔗Border Radius Viewer</a>
+    <a href="https://andrierlison.github.io/radius-border-viewer/">🔗Radius Border Viewer</a>
 </h1>
 
 <p>
