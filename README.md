@@ -1,6 +1,5 @@
-<div align="center">
 <h1>
-    <a href="https://andrierlison.github.io/radius-border-viewer/">🔗Radius Border Viewer</a>
+    <a href="https://andrierlison.github.io/radius-border-viewer/">Radius Border Viewer</a>
 </h1>
 
 <p>
@@ -8,13 +7,6 @@
     <a href="https://github.com/Andrierlison/radius-border-viewer/blob/master/LICENSE">License</a> •
     <a href="#author">Author</a>
 </p>
-
-<h2>Completed project</h2>
-
-<p>
-    <img alt="Radius border viewer converter banner" title="Radius border viewer converter banner" src="images/banner.png" width="600"/>
-</p>
-</div>
 
 <h3>Description</h3>
 <p>Inspired by the github repository <a href="https://github.com/florinpop17/app-ideas" target="_blank">app-ideas</a> specifically in the Border-Radius-Previewer project.<br />
