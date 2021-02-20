@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>RADIUS BORDER VIEWER</title>
+    <title>Radius border viewer</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/styles.css" />
@@ -16,38 +16,63 @@
   </head>
   <body>
     <header>
-      <h1>RADIUS BORDER VIEWER</h1>
+      <h1>Radius border viewer</h1>
     </header>
+
     <main>
-      <input
-        oninput="toView()"
-        type="number"
-        id="topLeft"
-        placeholder="Top Left"
-      />
-      <input
-        oninput="toView()"
-        type="number"
-        id="topRight"
-        placeholder="Top Right"
-      />
-      <input
-        oninput="toView()"
-        type="number"
-        id="bottomRight"
-        placeholder="Bottom Right"
-      />
-      <input
-        oninput="toView()"
-        type="number"
-        id="bottomLeft"
-        placeholder="Bottom Left"
-      />
-      <p id="code"></p>
+      <article>
+        <h2 class="placeholder">
+          Enter the values below and the css code will appear beside.
+        </h2>
+        <div class="inputs-and-code">
+          <div class="inputs">
+            <input
+              oninput="getInputsValues()"
+              type="number"
+              id="inputWidth"
+              placeholder="Width"
+            />
+            <input
+              oninput="getInputsValues()"
+              type="number"
+              id="inputHeight"
+              placeholder="Height"
+            />
+            <input
+              oninput="getInputsValues()"
+              type="number"
+              id="topLeft"
+              placeholder="Top Left"
+            />
+            <input
+              oninput="getInputsValues()"
+              type="number"
+              id="topRight"
+              placeholder="Top Right"
+            />
+            <input
+              oninput="getInputsValues()"
+              type="number"
+              id="bottomRight"
+              placeholder="Bottom Right"
+            />
+            <input
+              oninput="getInputsValues()"
+              type="number"
+              id="bottomLeft"
+              placeholder="Bottom Left"
+            />
+          </div>
+          <span id="code"></span>
+        </div>
+        <input id="hidden-input" type="text" />
+        <button id="copy-button">Copy</button>
+      </article>
+
       <div id="box"></div>
     </main>
     <footer>
-      <ul>
+      <ul class="contacts">
         <li>
           <h4>CONTACT</h4>
         </li>
